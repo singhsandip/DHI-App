@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Doctors" />
+        <item
+            android:id="@+id/nav_specialities"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Our Specialities" />
+        <item
+            android:id="@+id/nav_patientinfo"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Patient Info" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_appointments"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Appointments" />
+            <item
+                android:id="@+id/nav_directions"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Directions" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
